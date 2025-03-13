@@ -18,19 +18,20 @@ This is a Flask-based microservice for fetching and storing LinkedIn page insigh
 
 2. **Create a virtual environment**:
 python -m venv venv
-source venv/bin/activate  
-# On Windows use `venv\Scripts\activate`
+source venv/bin/activate
+On Windows use `venv\Scripts\activate`
 
-3. **Install dependencies**:
+4. **Install dependencies**:
 pip install -r requirements.txt
 
-4. **Configure environment variables**:
+5. **Configure environment variables**:
 Copy .env.example to .env and fill in the necessary values.
 
-5. **Run the application**:
+6. **Run the application**:
 python app.py
 
 **Usage**
+
 Access the API at http://localhost:5000.
 Use tools like Postman to test the endpoints.
 
