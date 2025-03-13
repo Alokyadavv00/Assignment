@@ -31,7 +31,6 @@ Copy .env.example to .env and fill in the necessary values.
 python app.py
 
 **Usage**
-
 Access the API at http://localhost:5000.
 Use tools like Postman to test the endpoints.
 
@@ -51,10 +50,6 @@ Retrieves posts for a specific LinkedIn page. Supports pagination.
 
 5. Get Post Comments: GET /page/<page_id>/posts/<linkedin_post_id>/comments
 Retrieves comments for a specific post on a LinkedIn page.
-
-**Usage**
-Access the API at http://localhost:5000.
-Use tools like Postman to test the endpoints.
 
 **Contributing**
 Contributions are welcome! Please open an issue or submit a pull request.
